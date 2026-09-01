@@ -189,12 +189,7 @@ The most important findings from the complete analysis are:
 10. SLA compliance is strongly related to satisfaction Satisfaction is 4.21 when SLA is not breached compared with 3.27 when SLA is breached.
 
 
-## Conclusion
-Overall, the IT Helpdesk is performing reasonably well, with an average customer satisfaction of 3.99/5 and an average resolution time of 21.77 hours compared with an SLA target of 27.41 hours. However, 24.73% of tickets breach SLA, with Critical tickets, Email-category issues, Remote users, and Chat showing higher breach rates. Network Ops demonstrates strong operational performance with the fastest resolution time and lowest team-level SLA breach rate. The Self-Service Portal provides the highest customer satisfaction, while Chat requires the most improvement. SLA breaches are strongly associated with lower customer satisfaction, making SLA compliance an important area for improvement. Overall, the organization should focus on reducing SLA breaches, improving Chat and Remote support, addressing slow Email-related resolutions, and maintaining the strong performance of efficient teams and channels.
-
-
 ## Summary
-
 This project analyses 3,000 IT helpdesk tickets to evaluate ticket volume, SLA performance, response time, resolution time, team performance, customer satisfaction, support channels, locations, and monthly trends. The project was completed using Python and libraries including Pandas, NumPy, Matplotlib, Seaborn, and Plotly.
 
 The analysis found that Software is the largest ticket category, Low-priority tickets are the most common, HQ - Dubai has the highest ticket volume, and Email is the most frequently used support channel. The average first response time is 6.34 hours and the average resolution time is 21.77 hours, compared with an average SLA target of 27.41 hours.
@@ -205,3 +200,14 @@ Customer satisfaction averages 3.99 out of 5. The Self-Service Portal has the hi
 
 The project concludes that the helpdesk is performing reasonably well but should focus on reducing SLA breaches, improving Email and Chat support, strengthening Remote support, monitoring reopened tickets, and adopting successful practices from high-performing teams and channels.
 
+
+## Conclusion
+Overall, the IT Helpdesk is performing reasonably well, with an average customer satisfaction score of 3.99/5 and an average resolution time of 21.77 hours compared with an average SLA target of 27.41 hours. However, the 24.73% SLA breach rate indicates that there is still significant scope for operational improvement.
+
+The analysis highlights several key areas that require attention. Critical tickets have the highest priority-level SLA breach rate, Email-related issues have the highest category-level breach rate and longest average resolution time, Remote users have the highest location-level breach rate, and Chat has the weakest overall channel performance.
+
+At the same time, Network Ops demonstrates strong operational performance, with the fastest average resolution time and lowest team-level SLA breach rate. The Self-Service Portal also performs well from a customer perspective, achieving the highest satisfaction score.
+
+One of the most important findings is the relationship between SLA performance and customer satisfaction. Tickets that breach SLA have considerably lower average customer satisfaction than tickets that meet their SLA targets. This indicates that improving SLA compliance should be an important priority for improving the overall customer experience.
+
+Based on these findings, the organization should focus on reducing SLA breaches, improving Chat and Remote support, addressing slow Email-related resolutions, monitoring reopened tickets, and maintaining the strong performance of efficient teams and support channels. Overall, the project demonstrates how data analysis and visualization can be used to evaluate IT helpdesk performance and identify practical areas for improvement.
