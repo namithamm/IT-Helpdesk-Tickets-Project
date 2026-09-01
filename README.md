@@ -149,24 +149,25 @@ There are 3,000 tickets in the dataset. Most tickets were Resolved, with 1,981 t
 
 >> Resolution Time by Support Team: Network Ops has the fastest average resolution time, while Service Desk L1 has the longest.
 
-Agent Performance The analysis also compared average resolution time among agents. The fastest average resolution was achieved by: I. Rossi – 19.22 hours The slowest average resolution was: F. Torres – 23.91 hours The project therefore provides a way to identify differences in individual agent performance. However, these figures should be interpreted carefully because agents may receive different types, priorities, and volumes of tickets.
+>> Agent Performance The analysis also compared average resolution time among agents. The fastest average resolution was achieved by: I. Rossi – 19.22 hours The slowest average resolution was: F. Torres – 23.91 hours The project therefore provides a way to identify differences in individual agent performance. However, these figures should be interpreted carefully because agents may receive different types, priorities, and volumes of tickets.
 
-SLA Target vs Actual Resolution The average SLA target is: 27.41 hours The average actual resolution time is: 21.77 hours This means the overall average resolution time is approximately 5.63 hours below the average SLA target. At an overall level, the helpdesk is resolving tickets faster than the average SLA target. However, this does not mean every ticket meets its SLA, as demonstrated by the 24.73% overall breach rate.
+>> SLA Target vs Actual Resolution: The average SLA target is: 27.41 hours The average actual resolution time is: 21.77 hours This means the overall average resolution time is approximately 5.63 hours below the average SLA target. At an overall level, the helpdesk is resolving tickets faster than the average SLA target. However, this does not mean every ticket meets its SLA, as demonstrated by the 24.73% overall breach rate.
 
-Customer Satisfaction Analysis The average customer satisfaction score is: 3.99 / 5 There were 2,523 recorded satisfaction responses. This represents generally positive customer feedback, but there is still room for improvement.
+>> Customer Satisfaction Analysis: The average customer satisfaction score is: 3.99 / 5 There were 2,523 recorded satisfaction responses. This represents generally positive customer feedback, but there is still room for improvement.
 
-Customer Satisfaction by Team Service Desk L1 has the highest team satisfaction score at 4.03.
+>> Customer Satisfaction by Team: Service Desk L1 has the highest team satisfaction score at 4.03.
 
-Customer Satisfaction by Channel The Self-Service Portal has the highest satisfaction score, while Chat has the lowest. The Self-Service Portal appears to be an effective support channel from a customer satisfaction perspective. Chat, on the other hand, should be investigated because it has: Lowest satisfaction, Highest SLA breach rate, Longest average resolution time
+>> Customer Satisfaction by Channel: The Self-Service Portal has the highest satisfaction score, while Chat has the lowest. The Self-Service Portal appears to be an effective support channel from a customer satisfaction perspective. Chat, on the other hand, should be investigated because it has: Lowest satisfaction, Highest SLA breach rate, Longest average resolution time.
 
-Resolution Time vs Customer Satisfaction The correlation between resolution time and customer satisfaction is: -0.27427 This indicates a negative relationship between resolution time and satisfaction. In simple terms: As resolution time increases, customer satisfaction tends to decrease. This is an important business insight because it demonstrates that improving resolution speed can potentially improve customer experience. The relationship is not extremely strong, so resolution time is not the only factor influencing satisfaction.
+>> Resolution Time vs Customer Satisfaction: The correlation between resolution time and customer satisfaction is: -0.27427 This indicates a negative relationship between resolution time and satisfaction. In simple terms: As resolution time increases, customer satisfaction tends to decrease. This is an important business insight because it demonstrates that improving resolution speed can potentially improve customer experience. The relationship is not extremely strong, so resolution time is not the only factor influencing satisfaction.
 
-SLA Breach vs Customer Satisfaction Customers associated with tickets that did not breach SLA had an average satisfaction of 4.21, whereas tickets that breached SLA had an average satisfaction of only 3.27. SLA compliance is strongly associated with customer satisfaction in this dataset. Therefore, reducing SLA breaches should not only improve operational performance but may also improve customer experience.
+>> SLA Breach vs Customer Satisfaction: Customers associated with tickets that did not breach SLA had an average satisfaction of 4.21, whereas tickets that breached SLA had an average satisfaction of only 3.27. SLA compliance is strongly associated with customer satisfaction in this dataset. Therefore, reducing SLA breaches should not only improve operational performance but may also improve customer experience.
 
-Monthly Ticket Volume Key findings May: highest ticket volume – 267 December: lowest ticket volume – 225 The project also notes that May's increase is not large enough to be classified as an unusual outlier using the standard-deviation approach.
+>> Monthly Ticket Volume:
+Key findings May: highest ticket volume – 267 December: lowest ticket volume – 225 The project also notes that May's increase is not large enough to be classified as an unusual outlier using the standard-deviation approach.
 
-Monthly SLA Performance April had the highest SLA breach rate at 29.12%, while September had the lowest at 20.00%. This monthly analysis can help management identify periods when additional staffing or operational monitoring may be useful.
+>> Monthly SLA Performance: April had the highest SLA breach rate at 29.12%, while September had the lowest at 20.00%. This monthly analysis can help management identify periods when additional staffing or operational monitoring may be useful.
 
-Overall Channel Performance Phone has the strongest operational performance, with the lowest SLA breach rate and fast resolution. Chat is the weakest overall channel because it has the longest resolution time, highest SLA breach rate, and lowest satisfaction.
+>> Overall Channel Performance: Phone has the strongest operational performance, with the lowest SLA breach rate and fast resolution. Chat is the weakest overall channel because it has the longest resolution time, highest SLA breach rate, and lowest satisfaction.
 
-Overall Location Performance HQ - Dubai has the highest ticket volume. HQ - Dubai also has the lowest SLA breach rate. Singapore has the longest resolution time. New York has the highest customer satisfaction. Remote users have the highest SLA breach rate.
+>> Overall Location Performance: HQ - Dubai has the highest ticket volume. HQ - Dubai also has the lowest SLA breach rate. Singapore has the longest resolution time. New York has the highest customer satisfaction. Remote users have the highest SLA breach rate.
