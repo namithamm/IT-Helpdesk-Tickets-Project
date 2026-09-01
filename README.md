@@ -37,6 +37,7 @@ The dataset contains 3,000 IT helpdesk tickets and 15 columns. The main variable
 | location | Location associated with the ticket |
 | channel	| Support channel used |
 | customer_satisfaction	| Customer satisfaction rating |
+
 The dataset contains 3,000 records, with 2,862 non-null resolved_date values and 2,523 customer satisfaction responses.
 
 
