@@ -22,22 +22,22 @@ The main objective is to identify operational strengths and weaknesses in the he
 ## Dataset Description
 The dataset contains 3,000 IT helpdesk tickets and 15 columns. The main variables include:
 
->> ## Column                 >> ## Description
->> ticket_id                 >> Unique identifier for each ticket
->> created_date              >> Date and time when the ticket was created
-resolved_date	            Date and time when the ticket was resolved
-category	                Type of IT issue
-priority	                Priority level of the ticket
-sla_target_hours	        Target time according to SLA
-first_response_hours	    Time taken to provide the first response
-resolution_time_hours	    Total time taken to resolve the ticket
-sla_breached	            Indicates whether the SLA was breached
-status	                  Current ticket status
-assigned_team	            Team responsible for the ticket
-agent_name	              Agent handling the ticket
-location	                Location associated with the ticket
-channel	                  Support channel used
-customer_satisfaction	    Customer satisfaction rating
+| >> ## Column | >> ## Description |
+| ticket_id | >> Unique identifier for each ticket |
+| created_date | >> Date and time when the ticket was created |
+| resolved_date	| Date and time when the ticket was resolved |
+| category | Type of IT issue |
+| priority | Priority level of the ticket |
+| sla_target_hours | Target time according to SLA |
+| first_response_hours | Time taken to provide the first response |
+| resolution_time_hours	| Total time taken to resolve the ticket |
+| sla_breached | Indicates whether the SLA was breached |
+| status | Current ticket status |
+| assigned_team	| Team responsible for the ticket |
+| agent_name | Agent handling the ticket |
+| location | Location associated with the ticket |
+| channel	| Support channel used |
+| customer_satisfaction	| Customer satisfaction rating |
 The dataset contains 3,000 records, with 2,862 non-null resolved_date values and 2,523 customer satisfaction responses.
 
 
