@@ -22,13 +22,6 @@ The dataset contains 3,000 IT helpdesk tickets and 15 columns. The main variable
 
 | Column | Description |
 | :--- | :--- |
-| ticket_id | User login and registration |
-| Dark Mode | Toggle dark/light theme |
-| Payments | Stripe API integration |
-
-
-| Column | Description |
-| :--- | :--- |
 | ticket_id | Unique identifier for each ticket |
 | created_date | Date and time when the ticket was created |
 | resolved_date	| Date and time when the ticket was resolved |
