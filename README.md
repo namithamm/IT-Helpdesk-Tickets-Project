@@ -1,6 +1,6 @@
 # IT Helpdesk Ticket Performance Analysis
 
-IT Helpdesk Performance Analysis is a Python and Pandas project that analyzes IT support tickets to identify trends in ticket volume, resolution time, SLA breaches, team performance, and customer satisfaction. The project uses data analysis and visualization to generate insights and improve helpdesk efficiency.
+##IT Helpdesk Performance Analysis is a Python and Pandas project that analyzes IT support tickets to identify trends in ticket volume, resolution time, SLA breaches, team performance, and customer satisfaction. The project uses data analysis and visualization to generate insights and improve helpdesk efficiency.
 
 
 
