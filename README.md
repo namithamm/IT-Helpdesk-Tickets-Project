@@ -171,3 +171,37 @@ Key findings May: highest ticket volume â€“ 267 December: lowest ticket volume â
 >> Overall Channel Performance: Phone has the strongest operational performance, with the lowest SLA breach rate and fast resolution. Chat is the weakest overall channel because it has the longest resolution time, highest SLA breach rate, and lowest satisfaction.
 
 >> Overall Location Performance: HQ - Dubai has the highest ticket volume. HQ - Dubai also has the lowest SLA breach rate. Singapore has the longest resolution time. New York has the highest customer satisfaction. Remote users have the highest SLA breach rate.
+
+
+
+## Major Findings of the Project
+
+The most important findings from the complete analysis are:
+1. Software creates the highest workload Software has 583 tickets, the highest among all categories.
+2. SLA performance requires improvement Overall SLA breach rate is 24.73%.
+3. Critical tickets are difficult to resolve within SLA Critical tickets have the highest breach rate at 29.55%.
+4. Email is a major problem area Email has: Highest category SLA breach rate: 31.67% Longest category resolution time: 23.98 hours
+5. Remote support needs attention Remote tickets have the highest location-level SLA breach rate at 27.38%.
+6. Chat needs improvement Chat has: Highest SLA breach rate: 27.49% Longest resolution time: 24.40 hours Lowest satisfaction: 3.89
+7. Network Ops performs strongly Network Ops has: Lowest team SLA breach rate: 21.93% Fastest team resolution time: 20.66 hours
+8. Self-Service Portal performs well The Self-Service Portal has the highest satisfaction score at 4.04.
+9. Resolution time affects satisfaction Resolution time and satisfaction have a correlation of -0.27427, indicating that longer resolution times tend to be associated with lower satisfaction.
+10. SLA compliance is strongly related to satisfaction Satisfaction is 4.21 when SLA is not breached compared with 3.27 when SLA is breached.
+
+
+## Conclusion
+Overall, the IT Helpdesk is performing reasonably well, with an average customer satisfaction of 3.99/5 and an average resolution time of 21.77 hours compared with an SLA target of 27.41 hours. However, 24.73% of tickets breach SLA, with Critical tickets, Email-category issues, Remote users, and Chat showing higher breach rates. Network Ops demonstrates strong operational performance with the fastest resolution time and lowest team-level SLA breach rate. The Self-Service Portal provides the highest customer satisfaction, while Chat requires the most improvement. SLA breaches are strongly associated with lower customer satisfaction, making SLA compliance an important area for improvement. Overall, the organization should focus on reducing SLA breaches, improving Chat and Remote support, addressing slow Email-related resolutions, and maintaining the strong performance of efficient teams and channels.
+
+
+## Summary
+
+This project analyses 3,000 IT helpdesk tickets to evaluate ticket volume, SLA performance, response time, resolution time, team performance, customer satisfaction, support channels, locations, and monthly trends. The project was completed using Python and libraries including Pandas, NumPy, Matplotlib, Seaborn, and Plotly.
+
+The analysis found that Software is the largest ticket category, Low-priority tickets are the most common, HQ - Dubai has the highest ticket volume, and Email is the most frequently used support channel. The average first response time is 6.34 hours and the average resolution time is 21.77 hours, compared with an average SLA target of 27.41 hours.
+
+Despite the generally positive operational performance, 24.73% of tickets breached SLA. Critical tickets have the highest priority-level breach rate, while Email has the highest category-level breach rate and longest resolution time. Remote users have the highest location-level breach rate, and Chat has the weakest overall channel performance, with the highest SLA breach rate, longest resolution time, and lowest customer satisfaction.
+
+Customer satisfaction averages 3.99 out of 5. The Self-Service Portal has the highest satisfaction score at 4.04, while Chat has the lowest at 3.89. The analysis also shows that SLA-breached tickets have considerably lower satisfaction than tickets that meet SLA targets. Resolution time also has a negative relationship with satisfaction.
+
+The project concludes that the helpdesk is performing reasonably well but should focus on reducing SLA breaches, improving Email and Chat support, strengthening Remote support, monitoring reopened tickets, and adopting successful practices from high-performing teams and channels.
+
